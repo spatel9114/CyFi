@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="/Users/spatel/Documents/Android Projects/CyFi/app/build/intermediates/pre-dexed/debug/classes-0afa54056809ba1e519ee9ab344cab188a0c11f2.jar"
+        jar="/Users/spatel/Documents/Android Projects/CyFi/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="3dfdf1db5ce5ea2999a5dcde8c8e650b02660059"/>
+    <item
+        dex="/Users/spatel/Documents/Android Projects/CyFi/app/build/intermediates/pre-dexed/debug/support-v4-19.1.0-23ec596caa564ca689e13d2c583869b79b40114a.jar"
+        jar="/Users/spatel/Documents/Android Projects/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67"/>
+
+</pre-dex-items>

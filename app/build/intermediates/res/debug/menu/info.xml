@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+     <item android:id="@+id/history" android:title="Take Network Snapshot"></item>
+     <item android:id="@+id/google_play" android:title="Google Play Dev Page"></item>
+     <item android:id="@+id/about" android:title="About Cryptic Applications"></item>
+</menu>
+<!-- From: file:/Users/spatel/Documents/Android%20Projects/CyFi/app/src/main/res/menu/info.xml -->

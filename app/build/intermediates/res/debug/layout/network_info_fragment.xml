@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/scrollview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:clickable="false"
+            android:longClickable="false" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp" >
+
+        <View
+            android:id="@+id/divider_below_interface"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/current_interface"
+            android:layout_centerHorizontal="true"
+            android:background="#33b5e5" />
+
+        <TextView
+            android:id="@+id/current_interface"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="25dp"
+            android:text="@string/current_interface_label"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/ip_information_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/current_interface"
+            android:layout_below="@+id/wifi_text"
+            android:layout_marginTop="7dp"
+            android:text="@string/ip_header"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <View
+            android:id="@+id/divider_below_ip_information"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/ip_information_header"
+            android:layout_centerHorizontal="true"
+            android:background="#33b5e5" />
+
+        <TextView
+            android:id="@+id/ext_ip_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ip_information_header"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/external_IP_label"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/int_ip_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ext_ip_header"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/internal_IP_label"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/int_ip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/int_ip_header"
+            android:layout_alignLeft="@+id/ext_ip_value"
+            android:paddingLeft="50dp"
+            android:text="@string/not_applicable"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/gateway_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/int_ip_header"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/gateway_label"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/gateway"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/gateway_header"
+            android:layout_alignBottom="@+id/gateway_header"
+            android:layout_alignLeft="@id/int_ip"
+            android:paddingLeft="50dp"
+            android:text="@string/not_applicable"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/subnet_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/gateway_header"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/subnet_label"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/subnet_mask"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/subnet_header"
+            android:layout_alignLeft="@id/gateway"
+            android:paddingLeft="50dp"
+            android:text="@string/not_applicable"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/dns_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mac_address_header"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/dns_label"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/mac_address_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/divider_below_other_information"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/mac_address_label"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/ssid_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dns_header"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/wifi_ssid"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/ssid_mac_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ssid_header"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/wifi_ssid_mac"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/signal_strength_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ssid_mac_header"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/wifi_signal_strength"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <ImageView
+            android:id="@+id/wifi_signal_strength_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/signal_strength_header"
+            android:contentDescription="@string/wifi_signal_strength" />
+
+        <TextView
+            android:id="@+id/network_performance_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/other_information_header"
+            android:layout_below="@+id/wifi_signal_strength_bar"
+            android:layout_marginTop="15dp"
+            android:text="@string/network_performance_header"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <View
+            android:id="@+id/divider_below_network_performance"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/network_performance_header"
+            android:layout_centerHorizontal="true"
+            android:background="#33b5e5" />
+
+        <Button
+            android:id="@+id/speed_test"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/ping_test"
+            android:layout_below="@+id/ping_test"
+            android:layout_marginTop="22dp"
+            android:text="@string/speed_test_label" />
+
+        <TextView
+            android:id="@+id/ping_test_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/ping_test"
+            android:layout_alignBottom="@+id/ping_test"
+            android:layout_toRightOf="@+id/network_performance_header"
+            android:text="@string/ping_google"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/speed_test_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/speed_test"
+            android:layout_alignBottom="@+id/speed_test"
+            android:layout_alignLeft="@+id/ping_test_text"
+            android:text="@string/speed_test"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <Button
+            android:id="@+id/ping_test"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/signal_strength_header"
+            android:layout_below="@+id/network_performance_header"
+            android:layout_marginTop="21dp"
+            android:text="@string/ping_test_label" />
+
+        <TextView
+            android:id="@+id/ext_ip_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignWithParentIfMissing="true"
+            android:layout_below="@id/divider_below_ip_information"
+            android:layout_toRightOf="@+id/ext_ip_header"
+            android:paddingLeft="50dp"
+            android:paddingTop="15dp"
+            android:text="@string/not_applicable"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/wifi_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/ext_ip_header"
+            android:layout_below="@+id/divider_below_interface"
+            android:shadowColor="#00a33d"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="25"
+            android:text="@string/wifi_text"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#00a33d" />
+
+        <TextView
+            android:id="@+id/mobile_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/ip_information_header"
+            android:layout_below="@+id/divider_below_interface"
+            android:layout_toRightOf="@+id/ssid_header"
+            android:shadowColor="#f91b23"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="25"
+            android:text="@string/mobile_text"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#f91b23" />
+
+        <TextView
+            android:id="@+id/other_information_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/broadcast_header"
+            android:layout_below="@+id/broadcast_header"
+            android:layout_marginTop="15dp"
+            android:text="@string/other_information_header"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <View
+            android:id="@+id/divider_below_other_information"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_alignRight="@+id/ssid_mac"
+            android:layout_below="@+id/other_information_header"
+            android:background="#33b5e5" />
+
+        <TextView
+            android:id="@+id/broadcast_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/subnet_header"
+            android:layout_below="@+id/subnet_header"
+            android:text="@string/broadcast_label"
+            android:layout_marginTop="5dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/ssid_mac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/signal_strength_header"
+            android:layout_alignRight="@+id/divider_below_network_performance"
+            android:layout_toRightOf="@+id/ssid_mac_header"
+            android:layout_marginLeft="10dp"
+            android:text="@string/not_applicable"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/mac_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/mac_address_header"
+            android:layout_alignRight="@+id/ssid_mac"
+            android:layout_alignLeft="@+id/ssid_mac"
+            android:layout_toRightOf="@+id/ssid_mac_header"
+            android:text="@string/not_applicable"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/dns_primary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/dns_header"
+            android:layout_alignBottom="@+id/dns_header"
+            android:layout_alignRight="@+id/ssid_mac"
+            android:layout_alignLeft="@+id/ssid_mac"
+            android:layout_toRightOf="@+id/ssid_mac_header"
+            android:text="@string/not_applicable"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/dns_secondary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/ssid_mac"
+            android:layout_alignLeft="@+id/ssid_mac"
+            android:layout_below="@+id/dns_primary"
+            android:layout_toRightOf="@+id/ssid_mac_header"
+            android:text="@string/not_applicable"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/ssid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/ssid_mac_header"
+            android:layout_alignLeft="@+id/ssid_mac"
+            android:layout_alignRight="@+id/ssid_mac"
+            android:text="@string/not_applicable"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/signal_strength"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/signal_strength_header"
+            android:layout_alignBottom="@+id/signal_strength_header"
+            android:layout_alignLeft="@+id/ssid"
+            android:layout_alignRight="@+id/ssid_mac"
+            android:text="@string/not_applicable"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/broadcast_ip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/other_information_header"
+            android:layout_toRightOf="@+id/ping_test"
+            android:text="@string/not_applicable" />
+
+    </RelativeLayout>
+
+</ScrollView><!-- From: file:/Users/spatel/Documents/Android%20Projects/CyFi/app/src/main/res/layout/network_info_fragment.xml -->

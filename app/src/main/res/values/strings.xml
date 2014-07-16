@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CyFi</string>
+    <string name="action_settings">About Us</string>
+    <string name="title_section1">Network Information</string>
+    <string name="title_section2">Network Location</string>
+    <string name="title_section3">Network Snapshots</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="internal_IP_label">Internal IP: </string>
+    <string name="external_IP_label">External IP: </string>
+    <string name="mac_address_label">MAC Address: </string>
+    <string name="temp">temp</string>
+    <string name="current_interface_label">Network Interfaces</string>
+    <string name="gateway_label">Gateway IP: </string>
+    <string name="dns_label">DNS: </string>
+    <string name="subnet_label">Subnet Mask: </string>
+    <string name="ping_test_label">Start Ping Test</string>
+    <string name="speed_test_label">Start Speed Test</string>
+    <string name="ping_google">0 ms</string>
+    <string name="speed_test">0 Kbps</string>
+    <string name="refresh_button_label">Refresh</string>
+    <string name="not_applicable">N/A on Interface</string>
+    <string name="ip_header">IP Information</string>
+    <string name="other_information_header">Other Information</string>
+    <string name="wifi_ssid">Wireless SSID: </string>
+    <string name="wifi_ssid_mac">Wireless MAC SSID: </string>
+    <string name="wifi_signal_strength">Signal Strength: </string>
+    <string name="network_performance_header">Network Performance</string>
+    <string name="loading">Loading...</string>
+    <string name="wifi_text">WIFI</string>
+    <string name="mobile_text">MOBILE</string>
+    <string name="broadcast_label">Broadcast IP:</string>
+    <string name="scan_interfaceLabel">Current Interface:</string>
+    <string name="scan_currentSSID">&lt;ssid></string>
+    <string name="scan_currentMAC">&lt;MAC></string>
+    <string name="scan_ch_band">&lt;Ch and Band></string>
+    <string name="scan_sigStrength">&lt;SigStr></string>
+    <string name="scan_otherNetworks">Other Networks in Range:</string>
+
+    <string-array name="nav_drawer_items">
+        <item>Network Information</item>
+        <item>Network Location</item>
+        <item>Network History</item>
+    </string-array>
+
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_action_info</item>
+        <item>@drawable/ic_action_locate</item>
+        <item>@drawable/ic_action_history</item>
+    </array>
+    <string name="desc_list_item_icon">Item Icon</string>
+</resources>
