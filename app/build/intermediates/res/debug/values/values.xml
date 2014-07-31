@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
 
-    <!-- From: file:/Users/spatel/Documents/Android%20Projects/CyFi/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/Users/spatel/GitHub/CyFi/app/src/main/res/values/strings.xml -->
     <eat-comment />
 
     <array name="nav_drawer_icons">
@@ -15,7 +15,7 @@
         <item>Network Location</item>
         <item>Network History</item>
     </string-array>
-    <!-- From: file:/Users/spatel/Documents/Android%20Projects/CyFi/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/res/values/common_colors.xml -->
+    <!-- From: file:/Users/spatel/GitHub/CyFi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/res/values/common_colors.xml -->
     <eat-comment />
 
     <color name="common_action_bar_splitter">#d2d2d2</color>
@@ -28,7 +28,7 @@
     <color name="common_signin_btn_light_text_disabled">#FFAAAAAA</color>
     <color name="common_signin_btn_light_text_focused">#FF737373</color>
     <color name="common_signin_btn_light_text_pressed">@android:color/white</color>
-    <!-- From: file:/Users/spatel/Documents/Android%20Projects/CyFi/app/src/main/res/values/color.xml -->
+    <!-- From: file:/Users/spatel/GitHub/CyFi/app/src/main/res/values/color.xml -->
     <eat-comment />
 
     <color name="counter_text_bg">#626262</color>
@@ -37,7 +37,7 @@
     <color name="list_background_pressed">#992416</color>
     <color name="list_divider">#272727</color>
     <color name="list_item_title">#fff</color>
-    <!-- From: file:/Users/spatel/Documents/Android%20Projects/CyFi/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/res/values/wallet_colors.xml -->
+    <!-- From: file:/Users/spatel/GitHub/CyFi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/res/values/wallet_colors.xml -->
     <eat-comment />
 
     <color name="wallet_bright_foreground_disabled_holo_light">#ffb2b2b2</color>
@@ -53,7 +53,7 @@
     <color name="wallet_hint_foreground_holo_light">#808080</color>
     <color name="wallet_holo_blue_light">#ff33b5e5</color>
     <color name="wallet_link_text_light">#0000ee</color>
-    <!-- From: file:/Users/spatel/Documents/Android%20Projects/CyFi/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/res/values/admob_ads_attrs.xml -->
+    <!-- From: file:/Users/spatel/GitHub/CyFi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/res/values/admob_ads_attrs.xml -->
     <eat-comment />
 
     <declare-styleable name="AdsAttrs">
@@ -75,7 +75,7 @@
         <!-- The ad unit ID. -->
         <attr name="adUnitId" format="string" />
     </declare-styleable>
-    <!-- From: file:/Users/spatel/Documents/Android%20Projects/CyFi/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/res/values/maps_attrs.xml -->
+    <!-- From: file:/Users/spatel/GitHub/CyFi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/res/values/maps_attrs.xml -->
     <eat-comment />
 
     <declare-styleable name="MapAttrs">
@@ -100,7 +100,7 @@
         <attr name="useViewLifecycle" format="boolean" />
         <attr name="zOrderOnTop" format="boolean" />
     </declare-styleable>
-    <!-- From: file:/Users/spatel/Documents/Android%20Projects/CyFi/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/res/values/wallet_attrs.xml -->
+    <!-- From: file:/Users/spatel/GitHub/CyFi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/res/values/wallet_attrs.xml -->
     <eat-comment />
 
     <declare-styleable name="WalletFragmentOptions">
@@ -174,30 +174,30 @@
             <enum name="monochrome" value="2" />
         </attr>
     </declare-styleable>
-    <!-- From: file:/Users/spatel/Documents/Android%20Projects/CyFi/app/src/main/res/values/dimens.xml -->
+    <!-- From: file:/Users/spatel/GitHub/CyFi/app/src/main/res/values/dimens.xml -->
     <eat-comment />
 
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="navigation_drawer_width">240dp</dimen>
-    <!-- From: file:/Users/spatel/Documents/Android%20Projects/CyFi/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/res/values/version.xml -->
+    <!-- From: file:/Users/spatel/GitHub/CyFi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/res/values/version.xml -->
     <eat-comment />
 
     <integer name="google_play_services_version">4452000</integer>
-    <!-- From: file:/Users/spatel/Documents/Android%20Projects/CyFi/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/Users/spatel/GitHub/CyFi/app/src/main/res/values/strings.xml -->
     <eat-comment />
 
     <string name="action_example">Example action</string>
     <string name="action_settings">About Us</string>
     <string name="app_name">CyFi</string>
     <string name="broadcast_label">Broadcast IP:</string>
-    <!-- From: file:/Users/spatel/Documents/Android%20Projects/CyFi/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/res/values/common_strings.xml -->
+    <!-- From: file:/Users/spatel/GitHub/CyFi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/res/values/common_strings.xml -->
     <eat-comment />
 
     <string name="common_google_play_services_enable_button" msgid="2523291102206661146">Enable Google Play services</string>
     <string name="common_google_play_services_enable_text" msgid="227660514972886228">This app won\'t work unless you enable Google Play services.</string>
     <string name="common_google_play_services_enable_title" msgid="5122002158466380389">Enable Google Play services</string>
-    <string name="common_google_play_services_error_notification_requested_by_msg">Requested by  <ns1:g id="app_name">%1$s</ns1:g></string>
+    <string name="common_google_play_services_error_notification_requested_by_msg">Requested by <ns1:g id="app_name">%1$s</ns1:g></string>
     <string name="common_google_play_services_install_button" msgid="7153882981874058840">Get Google Play services</string>
     <string name="common_google_play_services_install_text_phone" msgid="2122112764540849864">This app won\'t run without Google Play services, which are missing from your phone.</string>
     <string name="common_google_play_services_install_text_tablet" msgid="7351599665250191022">This app won\'t run without Google Play services, which are missing from your tablet.</string>
@@ -219,7 +219,7 @@
     <string name="common_google_play_services_update_title" msgid="1788179980625863495">Update Google Play services</string>
     <string name="common_signin_button_text">Sign in</string>
     <string name="common_signin_button_text_long">Sign in with Google</string>
-    <!-- From: file:/Users/spatel/Documents/Android%20Projects/CyFi/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/Users/spatel/GitHub/CyFi/app/src/main/res/values/strings.xml -->
     <eat-comment />
 
     <string name="current_interface_label">Network Interfaces</string>
@@ -253,24 +253,24 @@
     <string name="title_section1">Network Information</string>
     <string name="title_section2">Network Location</string>
     <string name="title_section3">Network Snapshots</string>
-    <!-- From: file:/Users/spatel/Documents/Android%20Projects/CyFi/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/res/values/wallet_strings.xml -->
+    <!-- From: file:/Users/spatel/GitHub/CyFi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/res/values/wallet_strings.xml -->
     <eat-comment />
 
     <string name="wallet_buy_button_place_holder" translation_description="Text on a button that allows a user to make a payment with Google Wallet [CHAR LIMIT=30]">Buy with Google</string>
-    <!-- From: file:/Users/spatel/Documents/Android%20Projects/CyFi/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/Users/spatel/GitHub/CyFi/app/src/main/res/values/strings.xml -->
     <eat-comment />
 
     <string name="wifi_signal_strength">Signal Strength: </string>
     <string name="wifi_ssid">Wireless SSID: </string>
     <string name="wifi_ssid_mac">Wireless MAC SSID: </string>
     <string name="wifi_text">WIFI</string>
-    <!-- From: file:/Users/spatel/Documents/Android%20Projects/CyFi/app/src/main/res/values/styles.xml -->
+    <!-- From: file:/Users/spatel/GitHub/CyFi/app/src/main/res/values/styles.xml -->
     <eat-comment />
 
     <style name="AppTheme" parent="android:Theme.Holo.Light">
         <!-- Customize your theme here. -->
     </style>
-    <!-- From: file:/Users/spatel/Documents/Android%20Projects/CyFi/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/res/values/wallet_styles.xml -->
+    <!-- From: file:/Users/spatel/GitHub/CyFi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/res/values/wallet_styles.xml -->
     <eat-comment />
 
     <style name="WalletFragmentDefaultButtonTextAppearance">

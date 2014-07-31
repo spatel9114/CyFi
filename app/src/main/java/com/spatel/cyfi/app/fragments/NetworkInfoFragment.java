@@ -260,17 +260,6 @@ public class NetworkInfoFragment extends Fragment {
                             Toast.LENGTH_SHORT).show();
                 }
                 return true;
-            case R.id.google_play:
-                Intent browserIntent = new Intent(
-                        Intent.ACTION_VIEW,
-                        Uri.parse("https://play.google.com/store/apps/developer?id=Cryptic+Applications"));
-                startActivity(browserIntent);
-                return true;
-            case R.id.about:
-                Intent browserIntent_2 = new Intent(Intent.ACTION_VIEW,
-                        Uri.parse("http://www.crypticapplications.com"));
-                startActivity(browserIntent_2);
-                return true;
             default:
                 break;
         }

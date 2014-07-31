@@ -79,9 +79,13 @@ public class NetworkLocationFragment extends Fragment {
                 parent.removeView(rootView);
         }
 
-        //Map doesn't exist, make it
-        rootView = inflater.inflate(R.layout.network_location_fragment, container, false);
-
+        try{
+            //Map doesn't exist, make it
+            rootView = inflater.inflate(R.layout.network_location_fragment,container, false);
+        }
+        catch(InflateException e){
+            //Map already exists
+        }
         context = rootView.getContext();
         network_interface = NetworkChangeReceiver.getInterface();
         mMap = ((SupportMapFragment) getFragmentManager().findFragmentById(R.id.map)).getMap();

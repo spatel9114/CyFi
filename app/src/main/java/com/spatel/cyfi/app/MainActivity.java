@@ -131,6 +131,7 @@ public class MainActivity extends FragmentActivity {
                 fragment = new NetworkHistoryFragment();
                 break;
             default:
+                fragment = new NetworkInfoFragment();
                 break;
         }
 

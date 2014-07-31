@@ -5,4 +5,4 @@
 		android:layout_width="match_parent"
 		android:layout_height="match_parent"
 		android:name="com.google.android.gms.maps.SupportMapFragment"
-		map:cameraZoom="10" /><!-- From: file:/Users/spatel/Documents/Android%20Projects/CyFi/app/src/main/res/layout/network_location_fragment.xml -->
+		map:cameraZoom="10" /><!-- From: file:/Users/spatel/GitHub/CyFi/app/src/main/res/layout/network_location_fragment.xml -->

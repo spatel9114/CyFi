@@ -36,4 +36,4 @@
         android:background="@drawable/counter_bg"
         android:textColor="@color/counter_text_color" />
 
-</RelativeLayout><!-- From: file:/Users/spatel/Documents/Android%20Projects/CyFi/app/src/main/res/layout/drawer_list_items.xml -->
+</RelativeLayout><!-- From: file:/Users/spatel/GitHub/CyFi/app/src/main/res/layout/drawer_list_items.xml -->

@@ -7,7 +7,6 @@
     <item android:id="@+id/go_to_me"
         android:title="Go To Me" />
     <item android:id="@+id/snapshot" android:title="Network Snapshot"></item>
-    <item android:id="@+id/about" android:title="About Cryptic Applications"></item>
     <item
         android:id="@+id/action_settings"
         android:orderInCategory="100"
@@ -15,4 +14,4 @@
         android:title="@string/action_settings"/>
   
 </menu>
-<!-- From: file:/Users/spatel/Documents/Android%20Projects/CyFi/app/src/main/res/menu/main.xml -->
+<!-- From: file:/Users/spatel/GitHub/CyFi/app/src/main/res/menu/main.xml -->

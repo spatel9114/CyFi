@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android" >
     
-	<item android:id="@+id/clear_single_snapshot" android:title="Clear Snapshot"></item><item android:id="@+id/clear_history_map_tab" android:title="Clear All Snapshots"></item>
+	<item android:id="@+id/clear_single_snapshot" android:title="Clear Snapshot"></item>
+    <item android:id="@+id/clear_history_map_tab" android:title="Clear All Snapshots"></item>
 	
 </menu>

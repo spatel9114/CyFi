@@ -13,5 +13,11 @@
         jumboMode="false"
         revision="20.0.0"
         sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67"/>
+    <item
+        dex="/Users/spatel/GitHub/CyFi/app/build/intermediates/pre-dexed/debug/classes-47fae1e5734b13b197dbeda91d4608941730405c.jar"
+        jar="/Users/spatel/GitHub/CyFi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="3dfdf1db5ce5ea2999a5dcde8c8e650b02660059"/>
 
 </pre-dex-items>

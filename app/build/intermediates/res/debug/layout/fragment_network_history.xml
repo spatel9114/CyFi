@@ -1,10 +1,9 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<?xml version="1.0" encoding="utf-8"?>
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/history_map"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".fragments.NetworkHistoryFragment">
-
-
-
-</FrameLayout>
-<!-- From: file:/Users/spatel/Documents/Android%20Projects/CyFi/app/src/main/res/layout/fragment_network_history.xml -->
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    map:cameraZoom="10" />
+<!-- From: file:/Users/spatel/GitHub/CyFi/app/src/main/res/layout/fragment_network_history.xml -->
