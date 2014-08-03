@@ -45,9 +45,7 @@
         </activity>
         <meta-data
             android:name="com.google.android.maps.v2.API_KEY"
-            android:value="AIzaSyDpcvwI0Q3JZHJcqY7YMX_rTfyYqRNI4wQ"/>
-        <!--Debug Value: AIzaSyD7ZR1kdhzBccFEeYnQJ7GrkwxEUNP_oGg  -->
-        <!-- Release Key Value: AIzaSyALou1WREvoMY8Sx-GoF6E58bcTn-vfJM0 -->
+            android:value="AIzaSyAtlMyJXHwAf8ZPODJVS-YTVWpUJXI-Uks"/>
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
